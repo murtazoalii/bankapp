@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="OperationCell" rowHeight="70" id="KGk-i7-Jjw" customClass="OperationCell" customModule="BankApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="69"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mastercard" translatesAutoresizingMaskIntoConstraints="NO" id="g2d-4N-6n0">
+                        <rect key="frame" x="8" y="10" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="Gqe-Ls-vXt"/>
+                            <constraint firstAttribute="width" secondItem="g2d-4N-6n0" secondAttribute="height" multiplier="1:1" id="aQN-jY-gcD"/>
+                            <constraint firstAttribute="width" constant="50" id="ikd-s5-Ad9"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Webmoney" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RHi-qh-IeW">
+                        <rect key="frame" x="74" y="8" width="170" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="170" id="0Wb-F6-Gay"/>
+                            <constraint firstAttribute="height" constant="21" id="DQO-zf-kEs"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Оплата услуг" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qn9-jv-eex">
+                        <rect key="frame" x="74" y="29" width="170" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="170" id="WBP-J5-5sL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                        <color key="textColor" red="0.52156862749999999" green="0.5568627451" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-530" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oo1-AM-n4Q">
+                        <rect key="frame" x="222" y="8" width="90" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="0XH-Om-UN9"/>
+                            <constraint firstAttribute="width" constant="90" id="uzi-DM-1TV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Вчера" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgt-nr-Rbw">
+                        <rect key="frame" x="222" y="28" width="90" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="I9X-qW-qBs"/>
+                            <constraint firstAttribute="width" constant="90" id="tqX-au-h41"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                        <color key="textColor" red="0.52156862749999999" green="0.5568627451" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jgt-nr-Rbw" firstAttribute="top" secondItem="Oo1-AM-n4Q" secondAttribute="bottom" id="5kR-BJ-fFB"/>
+                    <constraint firstItem="RHi-qh-IeW" firstAttribute="leading" secondItem="g2d-4N-6n0" secondAttribute="trailing" constant="16" id="DaL-OI-u9J"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="g2d-4N-6n0" secondAttribute="bottom" constant="1.5" id="J8T-a8-TEo"/>
+                    <constraint firstItem="RHi-qh-IeW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="UQP-if-hCJ"/>
+                    <constraint firstItem="g2d-4N-6n0" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="VqW-f1-Nmu"/>
+                    <constraint firstItem="g2d-4N-6n0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="af1-tf-GkR"/>
+                    <constraint firstItem="Oo1-AM-n4Q" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="eMV-Hd-qlm"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Oo1-AM-n4Q" secondAttribute="trailing" id="jN1-Ol-pn5"/>
+                    <constraint firstItem="qn9-jv-eex" firstAttribute="leading" secondItem="g2d-4N-6n0" secondAttribute="trailing" constant="16" id="sKR-p6-wmS"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="jgt-nr-Rbw" secondAttribute="trailing" id="ucF-eJ-0w7"/>
+                    <constraint firstItem="qn9-jv-eex" firstAttribute="top" secondItem="RHi-qh-IeW" secondAttribute="bottom" id="vZN-Ep-3GB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="operationDate" destination="jgt-nr-Rbw" id="CJD-gQ-QnF"/>
+                <outlet property="operationImage" destination="g2d-4N-6n0" id="G5B-yU-koR"/>
+                <outlet property="operationSum" destination="Oo1-AM-n4Q" id="iQq-li-hXh"/>
+                <outlet property="operationType" destination="qn9-jv-eex" id="nVM-tx-6R0"/>
+                <outlet property="receiverTitle" destination="RHi-qh-IeW" id="OHa-Rm-2GI"/>
+            </connections>
+            <point key="canvasLocation" x="81" y="137"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="mastercard" width="75" height="56"/>
+    </resources>
+</document>

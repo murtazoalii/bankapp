@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="GoalCell" rowHeight="90" id="KGk-i7-Jjw" customClass="GoalCell" customModule="BankApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="89.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Сумма депозита" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DYo-oL-pvc">
+                        <rect key="frame" x="16" y="14" width="132" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="132" id="Bly-Wf-cTA"/>
+                            <constraint firstAttribute="height" constant="21" id="WBu-er-jNZ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <color key="textColor" red="0.75686274509999996" green="0.75686274509999996" blue="0.77647058820000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3500" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ErR-79-tk9">
+                        <rect key="frame" x="16" y="51" width="144" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Qzh-mv-fJg"/>
+                            <constraint firstAttribute="width" constant="144" id="zLF-5D-THZ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                        <color key="textColor" red="0.46666666870000001" green="0.76470589639999997" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Срок" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kuI-uO-DN1">
+                        <rect key="frame" x="174" y="13" width="132" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="KVc-ED-r3c"/>
+                            <constraint firstAttribute="width" constant="132" id="O2f-xl-RtJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <color key="textColor" red="0.75686274509999996" green="0.75686274509999996" blue="0.77647058820000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.5" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ck1-yw-4cQ">
+                        <rect key="frame" x="162" y="51" width="144" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="144" id="8DM-Xr-qOP"/>
+                            <constraint firstAttribute="height" constant="21" id="XeK-zl-FtQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                        <color key="textColor" red="0.46666666870000001" green="0.76470589639999997" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="kuI-uO-DN1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="1Ia-K0-oVr"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ErR-79-tk9" secondAttribute="bottom" constant="9" id="Dif-qq-c6U"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Ck1-yw-4cQ" secondAttribute="bottom" constant="9" id="G6N-7J-B4q"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="kuI-uO-DN1" secondAttribute="trailing" constant="6" id="XS3-QR-Bup"/>
+                    <constraint firstItem="ErR-79-tk9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="imO-GH-H8L"/>
+                    <constraint firstItem="DYo-oL-pvc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="kCQ-5D-DEY"/>
+                    <constraint firstItem="DYo-oL-pvc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="6" id="vIg-3c-66m"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Ck1-yw-4cQ" secondAttribute="trailing" constant="6" id="xFm-iI-rvI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="sumLabel" destination="ErR-79-tk9" id="m59-mG-LLd"/>
+                <outlet property="termLabel" destination="Ck1-yw-4cQ" id="SgX-2t-8V2"/>
+            </connections>
+            <point key="canvasLocation" x="91" y="101"/>
+        </tableViewCell>
+    </objects>
+</document>

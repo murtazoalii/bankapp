@@ -1,0 +1,15 @@
+PODS:
+  - JSSAlertView (3.0.4)
+  - SmileLock (2.0.0)
+
+DEPENDENCIES:
+  - JSSAlertView
+  - SmileLock
+
+SPEC CHECKSUMS:
+  JSSAlertView: 7d8345c88e6fd8b515bc49f0fc8d8c69f6776b9c
+  SmileLock: ee34bf37e824c8afc71217fccc2b2bee5510db64
+
+PODFILE CHECKSUM: 10f1e6256243d4469cc628ee7f6b0e55d27159f6
+
+COCOAPODS: 1.2.0
